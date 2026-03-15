@@ -31,5 +31,8 @@ You need a Linux environment with `X11` and `MiniLibX` dependencies installed.
 ### Compilation
 ```bash
 git clone git@github.com:ROGARD18/FDF.git FDF
-cd FDF
+cd FDF/minilibx-linux
 make
+cd ..
+make
+./fdf 42.fdf
